@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.changeBodyColor{
+    background-color : black;
+    background-color : rgba(0, 0, 0, 0.4);
+}
+.blurBackground{
+    filter : blur(2px);
+}
+h1{
+    background-color: darkorchid;
+    height: 75px;
+    color: white;
+    text-align: center;
+    padding-top: 37.5px;
+}
+#spanWrapper span{
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 12px;
+    color: gray;
+}
+#nameOfTable{
+    width: 400px;
+}
+#spanWrapper{
+    margin-bottom: 10px;
+}
+#nameError{
+    color: red;
+    margin-left: 10px;
+    position: relative;
+    top: -40px;
+}
+label{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.game-type select{
+    width: 407px;
+}
+.limit-types select{
+    width: 416px;
+}
+.stakes select{
+    width: 400px;
+}
+.numPlayers select{
+    width: 322px;
+}
+
+.limit-types{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#txtContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.modal {/*background*/
+    display: none; 
+
+}
+.belowModal{
+    z-index: 0;
+    position: relative;
+}
+#modalVisible{
+    position: relative;
+    top:-220px;
+}
+.modal-content{
+    top: -100px;
+    left: 70px;
+    background-color: white;
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+#modalText{
+    position: relative;
+    top:60px;
+}
+.modalBtns{
+    position: relative;
+    top: 70px;
+}
+#mainButtons{
+    position: relative;
+    left: 200px;
+    top: 28.5px;
+}
+#mainButtons button{
+    background-color: darkorchid;
+    color: white;
+    border-radius: 2px;
+    border: 1px darkorchid;
+    height: 25px;
+    font-weight: bold;
+}
+select{
+    margin-bottom: 10px;
+}

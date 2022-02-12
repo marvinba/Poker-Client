@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>  
+</head>
+<body>
+  <h1>Login</h1>
+ 
+  <form id = "login_form">
+    <div>
+      <label for="user">User: </label>
+      <input type="text" name = "user" id="user"><br>
+    </div>
+
+    <div>
+      <label for="password">Password: </label> 
+      <input type="password" name = "password" id="password"><br>  
+    </div>
+
+    <button type="submit">Log In</button>
+  </form>
+
+  <label class="login-preferences">Remember Me
+    <input type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+  </label>
+  
+  <label class="login-preferences">Auto-Login
+    <input type="checkbox">
+    <span class="checkmark"></span><br></br>
+  </label>
+
+  <div id="errorDiv"></div>
+  <span id="newAccountLink" style= "cursor:pointer; color:blue;text-decoration:underline;">Create New Account</button>  
+
+  <script src="login.js"></script>
+</body>
+</html>
+

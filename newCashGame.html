@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="newCashGame.css">
+</head>
+<body>
+    <div class="aboveModal">
+        <h1>Create Cash Game</h1>
+        
+        <label for="nameOfTable" id="nameLbl">Name:</label>  
+        <input type="text" id="nameOfTable" name="name"><br>
+        <div id = "spanWrapper">
+            <span id="namingRulesOne">Only 4 repeats are allowed and the name can't end in consecutive Roman Numerals.</span><br>
+            <span id="namingRulestwo">13 character limit. Only spaces and letters are allowed.</span>        
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p id="modalText">(insert original name) is not available, but the name (insert new name) is. Would you like to use 
+            this name instead?</p>
+            <div class = "modalBtns">
+                <button id="yesBtn">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+        </div>      
+    </div>
+
+    <div class="belowModal">
+        <div class="game-type">
+            <label for="game-select">Game:</label> 
+            <select id = "game-select" name="game" >
+                <option>Hold'Em</option>
+                <option>Omaha</option>
+                <option>Omaha Hi/Lo</option>
+                <option>7 Card Stud</option>
+                <option>7 Card Stud Hi/Lo</option>
+                <option>Razz</option>
+            </select>
+        </div>
+        <div class="limit-types">        
+            <label id="limitLabel">Limit:</label>         
+            <select id = "regular-limit-select" name="regLimit">
+                <option>No Limit</option>
+                <option>Pot Limit</option>
+                <option>Fixed Limit</option>
+            </select>        
+            <select id = "stud-limit-select" name="fixedLimit">
+                <option>Fixed Limit</option>
+            </select>
+        </div>
+        <div class="stakes">
+            <label for="stakes-select">Stakes:</label> 
+            <select id = "stakes-select" name="stakes">
+                <option>$0.01/$0.02</option>
+                <option>$0.02/$0.05</option>
+                <option>$0.05/$0.10</option>
+                <option>$0.10/$0.25</option>
+                <option>$0.25/$0.50</option>
+                <option>$0.50/$1.00</option>
+                <option>$1.00/$2.00</option>
+                <option>$2.00/$5.00</option>
+                <option>$5.00/$10.00</option>
+            </select>
+        </div>
+        <div class="numPlayers">
+            <label for="numPlayer-select">Number of Players:</label>        
+            <select id = "numPlayer-select" name="players">
+                <option>2</option>
+                <option>6</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+        </div>        
+
+        <div id="mainButtons">
+            <button id = "createNewCash">Create</button>
+            <button id = "cancelButton">Cancel</button>        
+        </div>
+        <br>
+
+        <span id="nameError"></span>
+    </div>
+    <script src="newCashGame.js"></script>   
+    <script defer src = "http://localhost:3000/socket.io/socket.io.js"></script>
+</body>
+</html>
+
+
+
+ 

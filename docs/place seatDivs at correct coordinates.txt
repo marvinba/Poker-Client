@@ -1,0 +1,206 @@
+All seatDiv positions without CSS aren't same if there are vs if there aren't blue dots
+
+Note: Bottom is always correct. Real height is 100 and width is 200. PlayerDiv height is 60px, right is correct if RtoL and left is correct if LtoR
+
+seat1Div: {"x":280,"y":140,"width":230,"height":130,"top":140,"right":510,"bottom":270,"left":280}
+seat2Div: {"x":510,"y":140,"width":230,"height":130,"top":140,"right":740,"bottom":270,"left":510}
+seat3Div: {"x":740,"y":140,"width":230,"height":130,"top":140,"right":970,"bottom":270,"left":740}
+seat4Div: {"x":970,"y":140,"width":230,"height":130,"top":140,"right":1200,"bottom":270,"left":970}
+seat5Div: {"x":1200,"y":140,"width":230,"height":130,"top":140,"right":1430,"bottom":270,"left":1200}
+seat6Div: {"x":1430,"y":140,"width":230,"height":130,"top":140,"right":1660,"bottom":270,"left":1430}
+seat7Div: {"x":1660,"y":140,"width":230,"height":130,"top":140,"right":1890,"bottom":270,"left":1660}
+seat8Div: {"x":1890,"y":140,"width":230,"height":130,"top":140,"right":2120,"bottom":270,"left":1890}
+seat9Div: {"x":2120,"y":140,"width":230,"height":130,"top":140,"right":2350,"bottom":270,"left":2120}
+seat10Div: {"x":2350,"y":140,"width":230,"height":130,"top":140,"right":2580,"bottom":270,"left":2350}
+
+All the following below are if there are no blue dots
+
+2-max(Heads up) coordinates 
+seat 1(630,-140)
+seat 2(630,-520)
+Move Seat 1 (RtoL) 630 - 410 = left:  220px;
+Move Seat 1 (RtoL) 520 - 210 = top:  310px;
+
+Move Seat 2 (LtoR) 630-610 = left:  20px;
+Move Seat 2 (LtoR) 140-270 = top: -130px;
+--------------------------------------------------------------------------------------------------------
+6-max coordinates 
+seat1Div: {"x":280,"y":140,"width":230,"height":130,"top":140,"right":510,"bottom":270,"left":280}
+seat 1 (354.53282, -447.20917)
+Move (RtoL) 354.53282-510 = left: -155.46718px;
+Move (RtoL) 447.20917-240 = top: 207.20917px;
+
+seat2Div: {"x":510,"y":140,"width":230,"height":130,"top":140,"right":740,"bottom":270,"left":510}
+seat 2 (354.53282, -212.79083)
+Move (RtoL) 354.53282-740 = left: -385.46718px;
+Move (RtoL) 212.79083-240= top: -27.20917px;
+
+seat3Div: {"x":740,"y":140,"width":230,"height":130,"top":140,"right":970,"bottom":270,"left":740}
+seat 3 (630, -140)
+Move (RtoL) 630-870 = left: -240px;
+Move (RtoL) 140-270 = top: -130px;
+
+seat4Div: {"x":970,"y":140,"width":230,"height":130,"top":140,"right":1200,"bottom":270,"left":970}
+seat 4 (905.46718, -212.79083)
+Move (LtoR) 905.46718 - 970 = left: -64.53282px;
+Move (LtoR) 212.79083-240= top: -27.20917px;
+
+seat5Div: {"x":1200,"y":140,"width":230,"height":130,"top":140,"right":1430,"bottom":270,"left":1200}
+seat 5 (905.46718, -447.20917)
+Move (LtoR) 905.46718 - 1200 = left: -294.53282px;
+Move (LtoR) 447.20917-240 = top: 207.20917px;
+
+seat6Div: {"x":1430,"y":140,"width":230,"height":130,"top":140,"right":1660,"bottom":270,"left":1430}
+seat 6 (630, -520)
+Move (LtoR) 630-1530 = left: -900px;
+Move (LtoR) 520 - 210 = top: 310px;
+--------------------------------------------------------------------------------------------------------
+8-max coordinates 
+seat1Div: {"x":280,"y":140,"width":230,"height":130,"top":140,"right":510,"bottom":270,"left":280}
+(522.16222,-510.75677)
+RtoL 522.16222-450 = left: "72.16222px"
+RtoL 510.75677-210 = top: "300.75677px"
+
+seat2Div: {"x":510,"y":140,"width":230,"height":130,"top":140,"right":740,"bottom":270,"left":510}
+(326.43155, -424.56658)
+RtoL 326.43155 - 740 = left: "-413.56845px"
+RtoL 424.56658-240 = top: "184.56658px"
+
+seat3Div: {"x":740,"y":140,"width":230,"height":130,"top":140,"right":970,"bottom":270,"left":740}
+(326.43155, -235.43342)
+RtoL 326.43155 - 970 = left: "-643.56845px"
+RtoL 235.43342-240 = top: "-4.56658px"
+
+seat4Div: {"x":970,"y":140,"width":230,"height":130,"top":140,"right":1200,"bottom":270,"left":970}
+(522.16222, -149.24323)
+RtoL 522.16222-1140 = left: "-617.83778px"
+RtoL 149.24323-270 = top: "-120.75677px"
+
+seat5Div: {"x":1200,"y":140,"width":230,"height":130,"top":140,"right":1430,"bottom":270,"left":1200}
+(737.83778, -149.24323)
+LtoR 737.83778-1260 = left: "-522.16222px"
+LtoR 149.24323-270 = top: "-120.75677px"
+
+seat6Div: {"x":1430,"y":140,"width":230,"height":130,"top":140,"right":1660,"bottom":270,"left":1430}
+(933.56845, -235.43342)
+LtoR 933.56845-1430 = left: "-496.43155px"
+LtoR 235.43342-240 = top: "-4.56658px"
+
+seat7Div: {"x":1660,"y":140,"width":230,"height":130,"top":140,"right":1890,"bottom":270,"left":1660}
+(933.56845, -424.56658)
+LtoR 933.56845-1660 = left: "-726.43155px"
+LtoR 424.56658-240 = top: "184.56658px"
+
+seat8Div: {"x":1890,"y":140,"width":230,"height":130,"top":140,"right":2120,"bottom":270,"left":1890}
+(737.83778, -510.75677)
+LtoR 737.83778-1950 = left: "-1212.16222px"
+LtoR 510.75677-210 = top: "300.75677px"
+--------------------------------------------------------------------------------------------------------
+9-max coordinates 
+
+seat1Div: {"x":280,"y":140,"width":230,"height":130,"top":140,"right":510,"bottom":270,"left":280}
+(630,-520)
+Move (RtoL) 630-410 = left: "220px"
+Move (RtoL) 520-210 = top: "310px"
+
+seat2Div: {"x":510,"y":140,"width":230,"height":130,"top":140,"right":740,"bottom":270,"left":510}
+x = 440.62076
+y = -489.78408
+Move (RtoL) 440.62076 - 740 = left: "-299.37924px"
+Move (RtoL) 489.78408 - 240 = top: "249.78408px"
+
+seat3Div: {"x":740,"y":140,"width":230,"height":130,"top":140,"right":970,"bottom":270,"left":740}
+x = 290.67675 (same as calculation with seat 8)
+y = -376.57110 (round down because of seat 8)
+Move (RtoL) 290.67675 - 970 = left: "-679.32325px"
+Move (RtoL) 376.57110 - 270 = top: "106.5711px"
+
+seat4Div: {"x":970,"y":140,"width":230,"height":130,"top":140,"right":1200,"bottom":270,"left":970}
+x = 354.53282
+y = -212.79083
+Move (RtoL) 354.53282 - 1200 = left: "-845.46718px"
+Move (RtoL) 212.79083 - 240 = top: "-27.20917px"
+
+seat5Div: {"x":1200,"y":140,"width":230,"height":130,"top":140,"right":1430,"bottom":270,"left":1200}
+x = 534.04192
+y = -147.28034
+Move (RtoL) 534.04192 - 1400 = left: "-865.95808px"
+Move (RtoL) 147.28034 - 270 = top: "-122.71966px"
+
+seat6Div: {"x":1430,"y":140,"width":230,"height":130,"top":140,"right":1660,"bottom":270,"left":1430}
+x = 725.95808 (same as calculation with seat 5)
+y = -147.28034
+Move (LtoR) 725.95808 - 1460 = left: "-734.04192px"
+Move (LtoR) 147.28034 - 270 = top: "-122.71966px"
+
+seat7Div: {"x":1660,"y":140,"width":230,"height":130,"top":140,"right":1890,"bottom":270,"left":1660}
+x = 905.46718 (same as calculation with seat 4)
+y = -212.79083
+Move (LtoR) 905.46718 - 1660 = left: "-754.53282px"
+Move (LtoR) 212.79083 - 240 = top: "-27.20917px"
+
+seat8Div: {"x":1890,"y":140,"width":230,"height":130,"top":140,"right":2120,"bottom":270,"left":1890}
+x = 969.32325
+y = -376.57110
+Move (LtoR) 969.32325 - 1890 = left: "-920.67675px"
+Move (LtoR) 376.57110 - 270 = top: "106.5711px"
+
+seat9Div: {"x":2120,"y":140,"width":230,"height":130,"top":140,"right":2350,"bottom":270,"left":2120}
+x = 819.37924
+y = -489.78408
+Move (LtoR) 819.37924 - 2120 = left: "-1300.62076px"
+Move (LtoR) 489.78408 - 240 = top: "249.78408px"
+
+--------------------------------------------------------------------------------------------------------
+10-max coordinates 
+
+
+seat1Div: {"x":280,"y":140,"width":230,"height":130,"top":140,"right":510,"bottom":270,"left":280}
+1 (630, -520)
+Move (RtoL) 630 - 410 = left: "220px"
+Move (RtoL) 520 - 210 = top: "310px"
+
+seat2Div: {"x":510,"y":140,"width":230,"height":130,"top":140,"right":740,"bottom":270,"left":510}
+2 (458.93477, -495.75971)
+Move (RtoL) 458.93477 - 710 = left: "-251.06523px"
+Move (RtoL) 495.75971 - 240 = top: "255.75971px"
+
+seat3Div: {"x":740,"y":140,"width":230,"height":130,"top":140,"right":970,"bottom":270,"left":740}
+3 (311.54553, -408.82979)
+Move (RtoL) 311.54553 - 940 = left: "-628.45447px"
+Move (RtoL) 408.82979 - 270 = top: "138.82979px"
+
+seat4Div: {"x":970,"y":140,"width":230,"height":130,"top":140,"right":1200,"bottom":270,"left":970}
+4 (311.54553, -251.17021)
+Move (RtoL) 311.54553 - 1170 = left: "-858.45447px"
+Move (RtoL) 251.17021 - 270 = top: "-18.82979px"
+
+seat5Div: {"x":1200,"y":140,"width":230,"height":130,"top":140,"right":1430,"bottom":270,"left":1200}
+5 (458.93477, -164.24029)
+Move (RtoL) 458.93477 - 1400 = left: "-941.06523px"
+Move (RtoL) 164.24029 - 270 = top: "-105.75971px"
+
+seat6Div: {"x":1430,"y":140,"width":230,"height":130,"top":140,"right":1660,"bottom":270,"left":1430}
+6 (630, -140)
+Move (LtoR) 630 - 1530 = left: "-900px"
+Move (LtoR) 140 - 270 = top: "-130px"
+
+seat7Div: {"x":1660,"y":140,"width":230,"height":130,"top":140,"right":1890,"bottom":270,"left":1660}
+7 (801.06523, -164.24029)
+Move (LtoR) 801.06522 - 1690 = left: "-888.93478px"
+Move (LtoR) 164.24029 - 270 = top: "-105.75971px"
+
+seat8Div: {"x":1890,"y":140,"width":230,"height":130,"top":140,"right":2120,"bottom":270,"left":1890}
+8 (948.45447, -251.17021) 
+Move (LtoR) 948.45447 - 1920 = left: "-971.54553px"
+Move (LtoR) 251.17021 - 270 = top: "-18.82979px"
+
+seat9Div: {"x":2120,"y":140,"width":230,"height":130,"top":140,"right":2350,"bottom":270,"left":2120}
+9 (948.45447, -408.82979)
+Move (LtoR) 948.45447 - 2150 = left: "-1201.54553px"
+Move (LtoR) 408.82979 - 270 = top: "138.82979px"
+
+seat10Div: {"x":2350,"y":140,"width":230,"height":130,"top":140,"right":2580,"bottom":270,"left":2350}
+10 (801.06523, -495.75971)
+Move (LtoR) 801.06523 - 2380 = left: "-1578.93477px"
+Move (LtoR) 495.75971 - 240 = top: "255.75971px"

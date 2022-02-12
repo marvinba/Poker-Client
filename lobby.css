@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  padding-left: 0;
+}
+div.top-container{
+  width: 573.25px;
+  height: 100px;
+  background-color: blueviolet;
+  
+}
+
+div.left-container{
+  width: 10.25px;
+  height: 384px;
+  background-color: blue;
+  float: left;
+}
+
+div.poker-variants{  
+  display: flex;
+  flex-direction: row;
+}
+
+div.poker-variants button {
+  background-color: black; /* Green background */
+  border: 1px solid rgb(53, 53, 53); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  /*cursor: pointer; /* Pointer/hand icon */  
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a background color on hover */
+div.poker-variants button:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+
+
+
+
+
+
+div.holdem-limits{
+  width: 573.25px;
+  flex-direction: row;
+  display: flex;
+}
+
+div.holdem-limits button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 4px; /* Some padding */
+  /*cursor: pointer; /* Pointer/hand icon */
+  width: 33%;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}  
+
+
+
+div.omaha-types{
+  width: 573.25px;  
+  flex-direction: row;
+}
+
+div.omaha-types button {
+  background-color: #4CAF50; /* Green background */   
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 4px; /* Some padding */
+  /*cursor: pointer; /* Pointer/hand icon */  
+  width: 33%;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+div.stakes{
+  width: 573.25px;
+  flex-direction: row;
+  display: flex;
+}
+
+div.stakes button{
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 2px; /* Some padding */
+  /*cursor: pointer; /* Pointer/hand icon */
+  width: 20%;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.game-listings{
+  display: block;
+  float:left;
+  background-color: lightgrey;
+  width: 573px;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+div.game-listings ul{
+  list-style-type:none;
+}
+  
+ul{
+  padding-left: 0;
+  margin-top: 0;
+}
+
+div.side-bar{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}

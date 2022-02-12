@@ -1,0 +1,36 @@
+table: 
+"x":280
+"y":140
+"width":700
+"height":380
+"top":140
+"right":980
+"bottom":520
+"left":280
+
+seat 3 and 6 are vertical seats
+seat3Div with -130px top property
+"x":740
+"y":10
+"width":230
+"height":130
+"top":10
+"right":970
+"bottom":140
+"left":740}
+
+circle point in middle intersect with edge of seat
+seat 1 is at 210 degrees or 7pi/6 radians
+top:425
+
+seat 2 is at 150 degrees or 5pi/6 radians
+top:235
+
+seat 4 is at 30 degrees or pi/6 radians
+top:235
+
+seat 5 is at -30 degrees or -pi/6 radians
+top:425
+
+
+

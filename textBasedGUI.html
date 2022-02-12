@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./textBasedGUI.css">
+</head>
+<body>
+    <div id="numDiv">
+      <label for="numPlayers">Number of players (can only choose between 2 and 10):</label>
+      <input type="text"  id="numPlayers">
+    </div>
+    <div id="stakesDiv">
+      <label for="stakes-select">Stakes:</label>
+      <select id = "stakes-select" name="stakes">
+        <option>$0.01/$0.02</option>
+        <option>$0.02/$0.05</option>
+        <option>$0.05/$0.10</option>
+        <option>$0.10/$0.25</option>
+        <option>$0.25/$0.50</option>
+        <option>$0.50/$1.00</option>
+        <option>$1.00/$2.00</option>
+        <option>$2.00/$5.00</option>
+        <option>$5.00/$10.00</option>
+      </select>
+    </div>
+    
+    <button id="submitNumPlayers">Submit</button>   
+
+    <p id="inputError"></p>
+    <script src="textBasedGUI.js"></script>   
+</body>
+</html>
+
+
+
+ 

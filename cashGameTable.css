@@ -1,0 +1,419 @@
+body{
+    margin-left: 0;
+    margin-top: 0;
+    overflow-x: hidden;
+}
+#btnTop {
+    font-size: 9.5px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    display:flex;    
+    background-color: white;
+    border: .5px solid white;
+    border-radius: 100%;
+    z-index: 500;
+    width: 15.5px;
+    height: 9.5px;
+    position: relative;
+    top: -2.5px;
+}
+#button {
+    background-color: rgb(206, 205, 205);
+    width: 16.4px;
+    border: .5px solid rgb(206, 205, 205);
+    height: 11.3px;
+    border-radius: 100% / 75%; 
+}
+.chipStack{
+    display:flex;
+    flex-direction: column;
+}
+.betStacks{
+    display: flex;
+    flex-direction: row;
+}
+.potStacks{
+    display:flex;
+    flex-direction: row;
+}
+
+.chipTop p{
+    transform: rotate(3deg);
+}
+.chipTop {
+    align-items: center;
+    justify-content: center;
+    display:flex;  
+    font-weight: bolder;
+    font-size:8.5px;
+    border-radius: 100%;
+    z-index: 500;
+    width: 18px;
+    height: 12px;
+    position: relative;
+    top: -2.5px;
+}
+.chip{
+    width: 19px;
+    border: .5px solid black;
+    height: 14px;
+    border-radius: 100% / 80%; 
+    position: relative;
+    left:60px;
+    top:20px;
+    z-index: 5001;
+}
+
+.chipTop250M{
+    background-color: rgb(104, 88, 136);
+    border: .5px solid rgb(104, 88, 136);
+    color:white;
+} 
+.chip250M{
+    background-color: rgb(70, 63, 85);
+}
+.chipTop100M{    
+    background-color: #E1533E;
+    border: .5px solid #E1533E;
+    color:white;
+} 
+.chip100M{    
+    background-color: #af4433;
+} 
+.chipTop25M{
+    background-color:chartreuse;
+    border: .5px solid chartreuse;
+    color:black;
+}
+.chip25M{
+    background-color:rgb(108, 212, 3);
+} 
+.chipTop5M{
+    background-color: aqua;
+    border: .5px solid aqua;
+    color:black;
+} 
+.chip5M{
+    background-color: rgb(3, 226, 226);
+} 
+.chipTop1M{
+    background-color: deeppink;
+    border: .5px solid deeppink;
+    color:white;
+} 
+.chip1M{
+    background-color: rgb(219, 17, 125);
+} 
+.chipTop500K{
+    background-color: blueviolet;
+    border: .5px solid blueviolet;
+    color:white;
+}
+.chip500K{
+    background-color: rgb(108, 34, 177);
+}
+.chipTop100K{
+    background-color: orange;
+    border: .5px solid orange;
+    color:black;
+}
+.chip100K{
+    background-color: rgb(212, 139, 2);
+}
+.chipTop25K{
+    background-color: #14323A;
+    border: .5px solid #14323A;
+    color:white;
+}
+.chip25K{
+    background-color: #0c1d22;
+}
+.chipTop5K{
+    background-color: deepskyblue;
+    border: .5px solid deepskyblue;
+    color:black;
+}
+.chip5K{
+    background-color: rgb(4, 162, 214);
+}
+.chipTop1K{
+    background-color: yellow; 
+    border: .5px solid yellow;   
+    color:black;
+}
+.chip1K{
+    background-color: rgb(223, 223, 5); 
+}
+.chipTop500{
+    background-color: orchid;
+    border: .5px solid orchid;
+    color:white;
+}
+.chip500{
+    background-color: rgb(180, 95, 177);
+}
+.chipTop100{
+    background-color: black;
+    border: .5px solid black;
+    color:white;
+}
+.chip100{
+    background-color: rgb(43, 43, 43);
+}
+.chipTop25{
+    background-color: rgb(20, 150, 20);
+    border: .5px solid rgb(20, 150, 20);
+    color:white;
+}
+.chip25{
+    background-color: rgb(17, 119, 17);
+}
+.chipTop5{
+    background-color: red;
+    border: .5px solid red;
+    color:white;
+}
+.chip5{
+    background-color: rgb(204, 3, 3);
+}
+.chipTop1{
+    background-color: blue;
+    border: .5px solid blue;
+    color:white;
+}
+.chip1{
+    background-color: rgb(1, 1, 161);
+}
+.chipTop25cent{
+    background-color: #9bc4e2;
+    border: .5px solid #9bc4e2;
+    color:black;
+}
+.chip25cent{
+    background-color: #82a5be;
+} 
+.chipTop5cent{
+    background-color: teal;
+    border: .5px solid teal;
+    color:white;
+}
+.chip5cent{
+    background-color: rgb(1, 80, 80);
+}
+.chipTop1cent{
+    background-color: navajowhite;
+    border: .5px solid navajowhite;
+    color:black;
+}
+.chip1cent{
+    background-color: rgb(211, 182, 139);
+}
+
+p{
+    margin:0;
+}
+.seatContainers{
+    display: flex;
+    flex-direction: row;
+}
+.divCircles{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#202020;
+    border:5px solid rgb(128, 128, 128);
+    position: relative;
+    z-index: 6002;
+}
+.nonCircleContMoveL{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    left:-30px;
+}
+.nonCircleContMoveR{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    left:30px;
+}
+
+.divRectangles{
+    width:140px;
+    height:60px;
+    background-color:black;
+    z-index: 5001;
+}
+.playerUsernamePs{/*Move (will be different for RtoL and LtoR seatDivs)*/
+    color:white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+}
+.chipStackPs{
+    color:white;
+    position: relative;
+    top:15px;
+    left: 50px;
+    z-index: 6001;
+}
+img{
+    width:100%;
+    height:100%;
+}
+
+.leftSemiCircles{
+    width:30px;
+    height:60px;
+    border-radius:  30px 0 0 30px;
+    background-color: black;
+    position:relative;
+    z-index: 6001;
+}
+.rightSemiCircles{
+    width:30px;
+    height:60px;
+    border-radius: 0 30px 30px 0;
+    background-color: black;
+    position:relative;
+    z-index: 6001;
+}
+
+.table{
+    position: relative;
+    top:140px;
+    left:280px;
+    background-color: darkgreen;
+    height: 380px;
+    width: 700px;
+    border-radius: 50%;
+}
+.regCardDiv{
+    width:65px;
+    height:70px;
+    border-radius: 6px;
+    z-index: 5000;
+}
+.buttonCardDiv{
+    position: relative;
+    left:32.5px;
+}
+.holeCardsDivLtoR{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    left:45px;
+    top:30px;
+}
+.holeCardsDivRtoL{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    left:55px;
+    top:30px;
+}
+
+.cashGameSeats{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.blueDot{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#boardWinnerContainer{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top:-10px;
+    left:190px;
+}
+#board{    
+    display:flex;
+    flex-direction: row;
+}
+#winnerText{
+    font-weight: bold;
+    position: relative;
+    left:70px;
+}
+.bestHandDivs{
+    color:white;
+    z-index:8000;
+}
+.actionDivs{
+    color: white;
+    z-index: 700;
+    position:absolute;
+    display:flex;
+}
+.actionDivsText{
+    color: white;
+    z-index: 700;
+    font-size: 11px;
+    display: none;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    font-weight: bolder;
+    padding: 2px 5px;
+}
+
+.seat{
+    width: 100px;
+    height: 50px;
+    background-color: darkslateblue;
+}
+#action{
+    position: absolute;
+    top: 575px;
+    left: 800px;
+    display: flex;
+    flex-direction:row;
+}
+.buttonSeats{
+    display: none;
+}
+.actionBtns{
+    width:75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+.actionElements{
+    display:none;
+    margin-left:5px;
+    margin-right:5px;
+}
+#betRzText{
+    width:50px;
+}
+#timer{
+    color:black;
+    background-color: white;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right:5px;
+    font-weight: bold;
+    position: absolute;
+    left : 1100px;
+    top:50px;
+}
+#potText{
+    font-weight: bolder;
+    font-size: 14px;
+    position:relative;
+    top:50px;
+}
+.visibleAction{
+    display:flex;
+}
+.hiddenAction{
+    display:none;
+}

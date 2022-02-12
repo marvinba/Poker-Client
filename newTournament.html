@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="newTournament.css">
+</head>
+<body>
+    <label for="dateOfTournament">Date:</label>
+    <input type="text" id="dateOfTournament" ><br></br>
+
+    <label for="nameOfTournament">Name:</label>
+    <input type="text" id="nameOfTournament" >
+
+    <div class="game-type">
+        <label for="game-select">Game:</label> 
+        <select id = "game-select">
+            <option>Hold'Em</option>
+            <option>Omaha</option>
+            <option>Omaha Hi/Lo</option>
+            <option>7 Card Stud</option>
+            <option>7 Card Stud Hi/Lo</option>
+            <option>Razz</option>
+        </select>
+    </div>
+    <div class="limit-types">        
+        <label>Limit:</label>         
+        <select id = "regular-limit-select">
+            <option>No Limit</option>
+            <option>Pot Limit</option>
+            <option>Fixed Limit</option>
+        </select>        
+        <select id = "stud-limit-select">
+            <option>Fixed Limit</option>
+        </select>
+    </div>
+    <div class="buyin">
+        <label for="buyin-txt">Buy-In (Enter in Buy-In + Fee format):</label> 
+        <input type="text" placeholder="Type Buy-In + Fee here" id="buyin-txt">
+    </div>
+    <div class="numPlayers">
+        <label for="numPlayer-select">Table Size:</label>        
+        <select id = "numPlayer-select">
+            <option>2</option>
+            <option>6</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+
+   
+    <button id = "createNewCash">Create</button>
+    <button id = "cancelButton">Cancel</button>
+  
+    <script src="newTournament.js"></script>
+</body>
+</html>

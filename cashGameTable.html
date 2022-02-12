@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./cashGameTable.css">
+</head>
+<body>
+        <!--<input type="text" id="fname" name="fname">-->
+        <!--<div class="textBox">
+
+        </div>-->
+           
+        <div id="allBestHands"></div>
+        <div id="allActions"></div>
+        
+        <div class ="table">  
+          <div id="blueDots"></div>
+          
+
+          <div class = "cashGameSeats">           
+          </div>
+
+          <div id="button">
+            <div id="btnTop"> 
+              <p>D</p>         
+            </div>
+          </div>     
+
+          <div id="boardWinnerContainer">
+            <div id = "board">
+              <div class = "regCardDiv"></div>
+              <div class = "regCardDiv"></div>
+              <div class = "regCardDiv"></div>
+              <div class = "regCardDiv"></div>
+              <div class = "regCardDiv"></div>
+            </div>
+            <p id = "potText"> </div>
+            <div id = "potChips" class = "potStacks"></div>
+            <p id="winnerText">Winner(s): </p>            
+          </div>
+          <p id="timer">Timer: 30</p>
+        </div>
+
+        
+
+        
+        <div class = "radioGroup">
+
+        </div>
+        
+        <div id="action">
+            <button id = "foldBtn" class = "actionBtns actionElements">Fold</button>
+            <button id = "chkBtn" class = "actionBtns actionElements">Check</button>
+            <button id = "callBtn" class = "actionBtns actionElements">Call</button>
+            <button id = "betBtn" class = "actionBtns actionElements">Bet</button>
+            <button id = "rzBtn" class = "actionBtns actionElements">Raise</button>
+            <input type="range" id="betRaiseRange" class="actionElements" step="0.01">  
+            <input type="text" id="betRzText" class="actionElements">
+        </div>     
+        
+    
+    <script src="cashGameTable.js"></script>    
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    
+    
+</body>
+</html>
+
+
+
+ 

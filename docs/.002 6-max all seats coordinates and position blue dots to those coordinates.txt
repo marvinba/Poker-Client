@@ -1,0 +1,73 @@
+Following seats intersect ellipse at:
+seat 1 (354.53282, -447.20917)
+seat 2 (354.53282, -212.79083)
+seat 3 (630, -140)
+seat 4 (905.46718, -212.79083)
+seat 5 (905.46718, -447.20917)
+seat 6 (630, -520)
+
+
+seats 3 css
+left: 345px;
+top: -25px;
+
+seats 6 css
+left: 345px;
+top: 325px;
+
+
+All with no css
+-----------------------------------------------------------------------------------------------
+seat1Dot: 
+"x":280
+"y":140
+"width":10
+"height":10
+"top":140
+"right":290
+"bottom":150
+"left":280
+
+Move 354.53282 - 285 => left: 69.53282px;
+Move 212.79083 - 145 => top: 67.79083px;
+
+seat2Dot: 
+"x":280
+"y":150
+"width":10
+"height":10
+"top":150
+"right":290
+"bottom":160
+"left":280
+
+Move 354.53282 - 285 => left: 69.53282px;
+Move 447.20917 - 155 => top: 292.20917px;
+
+seat4Dot: 
+"x":280
+"y":170
+"width":10
+"height":10
+"top":170
+"right":290
+"bottom":180
+"left":280
+
+
+Move 905.46718 - 285 => left: 620.46718px;
+Move 212.79083 - 175 => top: 37.79083px;
+
+seat5Dot: 
+"x":280
+"y":180
+"width":10
+"height":10
+"top":180
+"right":290
+"bottom":190
+"left":280
+
+
+Move 905.46718 - 285 => left: 620.46718px;
+Move 447.20917 - 185 => top: 262.20917px;

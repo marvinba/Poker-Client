@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lobbyGUI.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="combinedCols">
+    <div id="col1">
+      <h1>Poker Client</h1>
+      <div id="formatChoice">
+        <button id="cashGame" class="selectedFormat">Cash Game</button>
+        <button id="tournament">Tournament</button>
+        <button id="sng">Sit & Go</button>
+      </div>
+      
+      <div id="nonFormatNonHeaderCol1">          
+        <div id="tablesDiv">
+          <table class = "smallWindow" id="game">
+            <tr>
+              <th>Game</th>
+            </tr>
+            <tr>
+              <td class = "topRowTable" id="holdemGame">Hold'em</td>
+            </tr>
+            <tr>
+              <td id="omahaGame">Omaha</td>
+            </tr>
+            <tr>
+              <td class = "bottomRowTable" id="studGame">Stud</td>
+            </tr>
+          </table>      
+          <div id="limitOrType">            
+            <table class = "smallWindow">
+              <tr>
+                <th>Limit/Type</th>
+              </tr>
+              <tr class = "limitsTypes">
+                <td class = "topRowTable">
+                  <p id="noLimit">No Limit</p>
+                  <p id="regOmaha">Omaha</p>
+                  <p id="7stud">7 Card Stud</p>
+                </td>
+              </tr>
+              
+              <tr class = "limitsTypes">
+                <td>
+                  <p id="potLimit" >Pot Limit</p>
+                  <p id="omahaHiLo">Omaha Hi/Lo</p>
+                  <p id="7studHiLo">7 Card Stud Hi/Lo</p>
+                </td>
+              </tr>
+
+              <tr class = "limitsTypes">
+                <td class = "bottomRowTable">
+                  <p id="fixedLimit">Fixed Limit</p>
+                  <p id="emptyOmaha"></p>
+                  <p id="razz">Razz</p>
+                </td>
+              </tr>              
+            </table>
+          </div>          
+          <table class = "smallWindow" id="stakes">
+            <tr>
+              <th>Stakes</th>
+            </tr>
+            <tr>
+              <td class = "topRowTable" id ="allStakes">All</td>
+            </tr>
+            <tr>
+              <td id ="highStakes">High</td>
+            </tr>
+            <tr>
+              <td id ="mediumStakes">Medium</td>
+            </tr>
+            <tr>
+              <td id ="lowStakes">Low</td>
+            </tr>  
+            <tr >
+              <td class = "bottomRowTable" id ="microStakes">Micro</td>
+            </tr>
+          </table>
+          <table class = "smallWindow" id="size">
+            <tr>
+              <th>Size</th>
+            </tr>
+            <tr>
+              <td class = "topRowTable" id="allSizes">All</td>
+            </tr>
+            <tr>
+              <td id="twoMax">2-Max (Heads Up)</td>
+            </tr>
+            <tr>
+              <td id="sixMax">6-Max</td>
+            </tr>
+            <tr>
+              <td id="eightMax">8-Max</td>
+            </tr>
+            <tr>
+              <td class = "bottomRowTable" id="nineMax">9-Max</td>
+            </tr>
+          </table>          
+        </div>
+        
+        <div id="searchDiv">
+          <input type="text" placeholder="Find tournament..." id="searchGames">
+        </div>
+        
+        <div id= "listings-organizer"> 
+          <div id="cashGameOrganizer">
+            <button id="nameOfListingsCash">Name</button>
+            <button id="gameOfListingsCash">Game</button>
+            <button id="stakesOfListings">Stakes</button>
+            <button id="playersOfListings">Players</button>             
+            <button id="waitOfListings">Wait</button>            
+            <button id="avgPotOfListings">Avg Pot</button>    
+            <button id="PlyrsPerFlopOfListings">Plrs/Flop</button>          
+            <button id="HandPerHrOfListings">H/hr</button>    
+          </div>
+          <div id="tournyOrganizer">
+            <button id="dateOfListings">Date</button>         
+            <button id="nameOfListingsTourny">Name</button>
+            <button id="sizeOfListingsTourny">Size</button>
+            <button id="gameOfListingsTourny">Game</button>
+            <button id="buyinOfListingsTourny">Buy&#8209In</button> 
+            <button id="speedOfListingsTourny">Speed</button>      
+            <button id="stateOfListingsTourny">State</button>
+            <button id="enrolledOfListingsTourny">Enrolled</button>   
+          </div>
+          <div id="sngOrganizer">
+            <button id="nameOfListingsSnG">Name</button>
+            <button id="gameOfListingsSnG">Game</button>
+            <button id="buyinOfListingsSnG">Buy&#8209In</button>  
+            <button id="speedOfListingsSnG">Speed</button>      
+            <button id="stateOfListingsSnG">State</button>
+            <button id="enrolledOfListingsSnG">Enrolled</button>  
+          </div>  
+        </div>
+
+        <div id= "game-listings">
+          <div class = "formatListings">
+            <div class = "nlheCash">
+              <li>Cosmos Dome</li>
+              <li>Hold'em</li>
+              <li>dasf</li>
+            </div>
+            <div class = "plheCash">
+
+            </div>
+            <div class = "flheCash">
+
+            </div>
+            <div class = "omahaCash">
+              <li>bareby</li>
+              <li>genius</li>
+              <li>bareker</li>
+            </div>
+            <div class = "omahaHiLoCash">
+              
+            </div>
+            <div class = "studCash">
+
+            </div>
+            <div class = "studHiLoCash">
+              
+            </div>
+            <div class = "razzCash">
+              
+            </div>
+            
+          </div>
+          <div class = "formatListings">
+            <div class = "nlheTournament">
+
+            </div>
+            <div class = "plheTournament">
+
+            </div>
+            <div class = "flheTournament">
+
+            </div>
+            <div class = "omahaTournament">
+              <li>Co</li>
+              <li>Hm</li>
+            </div>
+            <div class = "omahaHiLoTournament">
+              
+            </div>
+            <div class = "studTournament">
+
+            </div>
+            <div class = "studHiLoTournament">
+              
+            </div>
+            <div class = "razzTournament">
+              
+            </div>
+          </div>
+          <div class = "formatListings">
+            <div class = "nlheSnG">
+
+            </div>
+            <div class = "plheSnG">
+
+            </div>
+            <div class = "flheSnG">
+
+            </div>
+            <div class = "omahaSnG">
+
+            </div>
+            <div class = "omahaHiLoSnG">
+              
+            </div>
+            <div class = "studSnG">
+
+            </div>
+            <div class = "studHiLoSnG">
+              
+            </div>
+            <div class = "razzSnG">
+              
+            </div>
+          </div>
+        </div>         
+      </div>
+    </div>
+
+    <div id="col2">
+      <div class = "top-right-container">
+        <div id = "accountBtnGroup">
+          <div id = "accountBtnGroupNotLoggedin">
+            <button id='createAccountBtn'>Create Account</button>      
+            <button id='loginBtn'>Log In</button>
+          </div>
+          <div id = "accountBtnGroupLoggedin">
+            <button id='logoutBtn'>Log Out</button>
+          </div>
+        </div>
+
+        <div id = "createNewGroup">
+          <button id='createNewCashGame'>Create Cash Game</button>      
+          <button id='createNewTournament'>Create Tournament</button>
+          <button id='createNewSnG'>Create Sit & Go</button>
+        </div>
+      </div>
+
+      <div id="nonTopSideContainer">
+        <div id = "previewGroup"> 
+          <div id="previewTable"></div>
+          <div id="previewBtnGroup">
+            <button id='sidebarSitBtn'>Take a Seat</button>
+            <button id='sidebarObserveBtn'>Observe Table</button>
+          </div>
+        </div>
+
+        <div id="bottomSideBtnGroup">       
+          <div id="cashBtnGroup">
+            <button id='cashierBtn'>Cashier</button>
+            <div id="sideBySideCashBtns">
+              <button id='depositBtn'>Deposit</button>
+              <button id='withdrawBtn'>Withdraw</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="lobby.js"></script>
+  <script defer src = "http://localhost:3000/socket.io/socket.io.js"></script>
+</body>
+</html>
+
+
+
+ 

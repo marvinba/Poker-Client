@@ -1,0 +1,102 @@
+Following seats intersect ellipse at:
+seat 1 , -468.42154)
+seat 2 , -191.57846)
+seat 3 (630, -140)
+seat 4 (869.75322, -191.57846)
+seat 5 (869.75322, -468.42154)
+seat 6 (630, -520)
+
+Distance betweens seats 4 and 5
+372.123
+
+Distance between seats 4 and 3
+247.414
+-------------------------------------------------------
+Vertical seats
+
+seat3Dot no top and no left properties:
+"x":280
+"y":160
+"width":10
+"height":10
+"top":160
+"right":290
+"bottom":170
+"left":280
+
+move seat 3 
+630 - 285 = left: 345px;
+140 - 165 = top: -25px;
+
+seat6Dot no top and no left properties:
+"x":280
+"y":190
+"width":10
+"height":10
+"top":190
+"right":290
+"bottom":200
+"left":280
+
+move seat 6 
+630 - 285 = left: 345px;
+-195+520 = top: 325px;
+---------------------------------------------------------
+Left seats
+
+seat1Dot no top and no left properties:
+"x":280
+"y":140
+"width":10
+"height":10
+"top":140
+"right":290
+"bottom":150
+"left":280
+
+seat 1 (630-(869.75322 - 630) = 390.24678, -468.42154)
+seat 2 (630-(869.75322 - 630) = 390.24678, -191.57846)
+
+move seat 1 
+390.24678 - 285  = left: 105.24678px;
+-145+468.42154 = top: 323.42154px;
+
+seat2Dot no top and no left properties:
+"x":280
+"y":150
+"width":10
+"height":10
+"top":150
+"right":290
+"bottom":160
+"left":280
+
+move seat 2 
+630-(869.75322 - 630)  = left: 105.24678px;
+-155+191.57846 = top: 36.57846px;
+---------------------------------------------------------
+Right seats
+
+seat4Dot no top property: 
+"x":864.75
+"y":170
+"width":10
+"height":10
+"top":170
+"right":874.75
+"bottom":180
+"left":864.75
+
+move seat 4 -175+191.57846 = top: 16.57846px;
+
+seat5Dot no top property: 
+"x":864.75
+"y":180
+"width":10
+"height":10
+"top":180
+"right":874.75
+"bottom":190
+"left":864.75
+
+move seat 5 -185+468.42154 = top: 283.42154px;

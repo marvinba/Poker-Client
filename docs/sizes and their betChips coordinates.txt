@@ -1,0 +1,33 @@
+6-max
+right to left 3
+left to right 6
+1-2 position the same, text on right
+4-5 position the same, text on left
+
+8-max
+1 right to left, text on left
+2-3 position the same, text on right
+4 right to left, text on left
+5 left to right, text on right
+6-7 position the same, text on left
+8 left to right, text on right
+
+9-max
+1 left to right, text on right
+2 position the same, text on right
+3-4 position the same, text on right
+5 right to left, text on left
+6 left to right, text on right
+7-8 position the same, text on left
+9 position the same, text on left
+
+10-max
+1 left to right, text on right
+2 same position, right to left
+3-4 same position, text on right
+5 same position, right to left, text on right
+6 left to right, text on right
+7 same position left side, text on left
+8-9 same position left side, text on left
+10 same position left side, text on left
+

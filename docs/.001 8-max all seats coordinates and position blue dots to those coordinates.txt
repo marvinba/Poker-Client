@@ -1,0 +1,117 @@
+Following seats intersect ellipse at:
+seat 1 theta is 4.39918538654 (522.16222, -510.75677) based on seat 5
+seat 2 theta is 3.6625593831856 (326.43155,-424.56658) based on seat 6
+seat 3 theta is  2.62062592225 (326.43155,-235.43342) based on seat 6
+seat 4 theta is  1.883999919 (522.16222,-149.24323) based on seat 5
+seat 5 theta is  1.25759273357 (737.83778,-149.24323) calculate off angle
+seat 6 theta is  0.52096673 (933.56845,-235.43342) calculate off angle
+seat 7 theta is -0.52096673 (933.56845, -424.56658) based on seat 6
+seat 8 theta is  5.02559257237 (737.83778, -510.75677) based on seat 5
+
+distance from seat 7 to seat 6 from -0.52096673 to 0.52096673 is 216.738
+distance from seat 6 to seat 5 from 0.52096673 to 1.25759273357 is 216.738
+distance from seat 5 to seat 4 from 1.25759273357 to 1.883999919 is 216.738
+distance from seat 4 to seat 3 from 1.883999919 to 2.62062592225 is 216.738
+
+
+center of table
+left:630
+top:330
+
+All with no css
+-----------------------------------------------------------------------------------------------
+seat1Dot: 
+"x":280
+"y":140
+"width":10
+"height":10
+"top":140
+"right":290
+"bottom":150
+"left":280
+Move 522.16222-285 = left: 237.16222px;
+Move -145+510.75677 = top: 365.75677px;
+
+seat2Dot: 
+"x":280
+"y":150
+"width":10
+"height":10
+"top":150
+"right":290
+"bottom":160
+"left":280
+Move 326.43155-285 = left: 41.43155px;
+Move -155+424.56658 = top: 269.56658px;
+
+seat3Dot: 
+"x":280
+"y":160
+"width":10
+"height":10
+"top":160
+"right":290
+"bottom":170
+"left":280
+Move 326.43155-285 = left: 41.43155px;
+Move -165 + 235.43342 = top: 70.43342px;
+
+seat4Dot: 
+"x":280
+"y":170
+"width":10
+"height":10
+"top":170
+"right":290
+"bottom":180
+"left":280
+Move 522.16222-285 = left: 237.16222px;
+Move 149.24323-175 = top: -25.75677px;
+
+seat5Dot: 
+"x":280
+"y":180
+"width":10
+"height":10
+"top":180
+"right":290
+"bottom":190
+"left":280
+Move 737.83778-285 = left: 452.83778px;
+Move 149.24323-185 = top: -35.75677px;
+
+seat6Dot: 
+"x":280
+"y":190
+"width":10
+"height":10
+"top":190
+"right":290
+"bottom":200
+"left":280
+Move 933.56845-285 = left: 648.56845px;
+Move 235.43342-195 = top: 40.43342px;
+
+seat7Dot: 
+"x":280
+"y":200
+"width":10
+"height":10
+"top":200
+"right":290
+"bottom":210
+"left":280
+Move 933.56845-285 = left: 648.56845px;
+Move 424.56658-205 = top: 219.56658px;
+
+seat8Dot: 
+"x":280
+"y":210
+"width":10
+"height":10
+"top":210
+"right":290
+"bottom":220
+"left":280
+Move 737.83778-285 = left: 452.83778px;
+Move -215+510.75677 = top: 295.75677px;

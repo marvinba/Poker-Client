@@ -1,0 +1,63 @@
+(630,-140)
+(630,-520)
+
+finished for heads up
+
+#seat1Div{
+    position: relative;
+    left:220px;
+    top:-130px;
+}
+#seat2Div{
+    position: relative;
+    left:20px;
+    top:305px;
+}
+--------------------------------------
+
+
+All with no css
+-----------------------------------------------------------------------------------------------
+seat1Dot: 
+"x":280
+"y":140
+"width":10
+"height":10
+"top":140
+"right":290
+"bottom":150
+"left":280
+
+Move 630 - 285 => left: 345px;
+Move 140 - 145 => top: -5px;
+
+seat2Dot: 
+"x":280
+"y":150
+"width":10
+"height":10
+"top":150
+"right":290
+"bottom":160
+"left":280
+
+Move 630 - 285 => left: 345px;
+Move 520 - 155 => top: 365px;
+
+table: 
+"x":280
+"y":140
+"width":700
+"height":380
+"top":140
+"right":980
+"bottom":520
+"left":280
+
+table pulled from css
+height:380px
+width:700px
+top:140px;
+left:280px;
+
+
