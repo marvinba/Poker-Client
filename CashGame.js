@@ -1163,7 +1163,7 @@ class CashGame {
                 if((secondIdx > 0) || (this.allInCounter == 0) || outerNoAllIns){                 
                     const winnerIdxSz = winnerIdx.length;
                     for (let i = 0; i < winnerIdxSz; i++){
-                        const seatCircle = document.getElementById('seat'+ (winnerIdx[0] + 1) + 'Div').getElementsByClassName("divCircles")[0]; 
+                        const seatCircle = document.getElementById('seat'+ (winnerIdx[i] + 1) + 'Div').getElementsByClassName("divCircles")[0]; 
                         seatCircle.style.borderColor = "blue";
                     }
                     
