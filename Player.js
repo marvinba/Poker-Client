@@ -742,7 +742,7 @@ class Player {
 			newBetAllIn.updateLowerAllIns(cashGameObj);
 
 			if(allInBool){//if amount for less, then that lower amount is all in and since all in and betAllInObj doesn't exist we create new pot
-				if ((cashGameObj.tempPots.length == 1) && (!cashGameObj.tempPots[0].allInBool)){
+				if ((cashGameObj.tempPots.length == 1) && (!cashGameObj.tempPots[0].allInBool) && (cashGameObj.tempPots[0].betAmount < betAmt)){//take sb into account, but not everything to account
 					cashGameObj.tempPots[0].setAllIn(betAmt, (this.seat - 1));
 				}
 				else{					
